@@ -48,6 +48,7 @@ const addToCart = (id, price) => {
 
    updateTaxAndCharge();
    document.getElementById('total-Products').innerText = count;
+   updateTotal();
 };
 
 const showProductDetails = (product_id) => {
